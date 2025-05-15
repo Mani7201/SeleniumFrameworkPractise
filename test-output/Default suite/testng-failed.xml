@@ -6,8 +6,8 @@
       <class name="Maninder.Tests.SubmitOrder">
         <methods>
           <include name="tearDown"/>
-          <include name="submitOrder" invocation-numbers="1"/>
           <include name="launchApplication"/>
+          <include name="submitOrder" invocation-numbers="0 1"/>
         </methods>
       </class> <!-- Maninder.Tests.SubmitOrder -->
     </classes>

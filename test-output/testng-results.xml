@@ -2,36 +2,50 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-09T14:37:09 IST" name="Suite" finished-at="2024-10-09T14:37:21 IST" duration-ms="12451">
+  <suite started-at="2025-05-15T12:35:19 IST" name="Suite" finished-at="2025-05-15T12:35:50 IST" duration-ms="31392">
     <groups>
     </groups>
-    <test started-at="2024-10-09T14:37:09 IST" name="ErrorValidation" finished-at="2024-10-09T14:37:21 IST" duration-ms="12451">
-      <class name="Maninder.Tests.ErrorValidation">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Maninder.Tests.ErrorValidation@470734c3]" started-at="2024-10-09T14:37:09 IST" name="launchApplication" finished-at="2024-10-09T14:37:12 IST" duration-ms="3216" status="PASS">
+    <test started-at="2025-05-15T12:35:19 IST" name="SubmitOrder" finished-at="2025-05-15T12:35:50 IST" duration-ms="31392">
+      <class name="Maninder.Tests.SubmitOrder">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Maninder.Tests.SubmitOrder@7161d8d1]" started-at="2025-05-15T12:35:19 IST" name="launchApplication" finished-at="2025-05-15T12:35:23 IST" duration-ms="3924" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="CatalogueErrorValidation()[pri:0, instance:Maninder.Tests.ErrorValidation@470734c3]" started-at="2024-10-09T14:37:12 IST" name="CatalogueErrorValidation" finished-at="2024-10-09T14:37:18 IST" duration-ms="5795" status="PASS">
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:Maninder.Tests.SubmitOrder@7161d8d1]" started-at="2025-05-15T12:35:23 IST" name="submitOrder" data-provider="getData" finished-at="2025-05-15T12:35:35 IST" duration-ms="12190" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{product2=ADIDAS ORIGINAL, product1=ZARA COAT 3, password=Test@123, email=man@xyz.com}]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CatalogueErrorValidation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Maninder.Tests.ErrorValidation@470734c3]" started-at="2024-10-09T14:37:18 IST" name="tearDown" finished-at="2024-10-09T14:37:18 IST" duration-ms="98" status="PASS">
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Maninder.Tests.SubmitOrder@7161d8d1]" started-at="2025-05-15T12:35:35 IST" name="tearDown" finished-at="2025-05-15T12:35:35 IST" duration-ms="88" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Maninder.Tests.ErrorValidation@470734c3]" started-at="2024-10-09T14:37:18 IST" name="launchApplication" finished-at="2024-10-09T14:37:20 IST" duration-ms="2238" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Maninder.Tests.SubmitOrder@7161d8d1]" started-at="2025-05-15T12:35:35 IST" name="launchApplication" finished-at="2025-05-15T12:35:38 IST" duration-ms="2710" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="LoginErrorValidation()[pri:0, instance:Maninder.Tests.ErrorValidation@470734c3]" started-at="2024-10-09T14:37:20 IST" name="LoginErrorValidation" finished-at="2024-10-09T14:37:21 IST" duration-ms="972" status="PASS">
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:Maninder.Tests.SubmitOrder@7161d8d1]" started-at="2025-05-15T12:35:38 IST" name="submitOrder" data-provider="getData" finished-at="2025-05-15T12:35:50 IST" duration-ms="12350" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{product2=ZARA COAT 3, product1=IPHONE 13 PRO, password=Test@123, email=man@xyz.com}]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginErrorValidation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Maninder.Tests.ErrorValidation@470734c3]" started-at="2024-10-09T14:37:21 IST" name="tearDown" finished-at="2024-10-09T14:37:21 IST" duration-ms="98" status="PASS">
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Maninder.Tests.SubmitOrder@7161d8d1]" started-at="2025-05-15T12:35:50 IST" name="tearDown" finished-at="2025-05-15T12:35:50 IST" duration-ms="83" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Maninder.Tests.ErrorValidation -->
-    </test> <!-- ErrorValidation -->
+      </class> <!-- Maninder.Tests.SubmitOrder -->
+    </test> <!-- SubmitOrder -->
   </suite> <!-- Suite -->
 </testng-results>
